@@ -7,6 +7,7 @@ from src.fibonacci import fibonacci
     'n, expected',
     [
         pytest.param(0, 0, id='zero'),
+        pytest.param(1, 1, id='one'),
     ]
 )
 def test_fibonacci(n, expected):
